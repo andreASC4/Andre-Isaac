@@ -5,11 +5,9 @@ function setup(){
     //var rekt = rect(250,250,30,20); 
     //ellipse(300,300,400,400);
 }
+
 function mouseDragged(){
-   for(var i =0; i<100; i++){
-     var r = random(50);
-     stroke(r*5);
-     line(50,i,50+r,i);
- }   
-  rect(mouseX, mouseY,60,50);
+  ellipse(mouseX, mouseY,random(50),random(50));
+
+fill(random(200),random(200), random(200));
 }
