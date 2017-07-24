@@ -77,7 +77,9 @@ function draw() {
   } else if (x <= 1) {
     x = 1298
   }
-  n 
+  if (keyIsDown(UP_ARROW)) {
+    bullets.push(new Bullet(x, height));
+  }
 
 
 
@@ -92,7 +94,7 @@ function draw() {
 
 
     this.show = function() {
-      // background('black')
+      
       rect(this.x, this.y, 10, 25)
     }
 
