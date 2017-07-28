@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Tillana');
+
 body{
-font-size: 150%;
+    text-align: center;
+    font-size: 150%;
+    width: 1400px;
+    height: 100px;
+}
+
+#dva{
+    vertical-align: middle;
+    font-family: 'Press Start 2P';
+}
+
+#hana{
+  font-family: 'Press Start 2P';  
+}
+
+#genji{
+     vertical-align: middle;
+     font-family: 'Tillana';
+}
+    #sparrow{
+        font-family: 'Tillana';
+    }
+
+html{
+    background-image: url("http://yesofcorsa.com/wp-content/uploads/2017/01/Overwatch-Wallpaper-For-Desktop-270x150.png");
+    background-position: center;
+}
+
+h1{
+    color: whitesmoke;
 }
